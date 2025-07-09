@@ -1,0 +1,26 @@
+
+@keyframes slideshow {
+    0% {
+      background-image: url("https://utfs.io/f/52949dd8-c7a8-4957-915e-d35761bea885-cno2pi.jpg");
+    }
+    18% {
+        background-image: url("https://utfs.io/f/0e87413c-bb11-4802-9f5b-b601f887cf88-ts0wzb.jpg");
+      }
+      36% {
+        background-image: url("https://utfs.io/f/76963e2c-c655-4b11-8c5f-80d97711521f-8uny7x.jpg");
+      }
+      54% {
+        background-image: url("https://utfs.io/f/1740dfc9-27de-4ede-ab36-6caad2e0df27-jpnhx9.jpg");
+      }
+      72% {
+        background-image: url("https://utfs.io/f/cc343625-a278-400a-860d-588fa21084ca-d39233.jpg");
+      }
+      100% {
+        background-image: url("https://utfs.io/f/52949dd8-c7a8-4957-915e-d35761bea885-cno2pi.jpg");
+      }
+      
+  }
+  
+  .hero {
+    animation: slideshow 18s infinite;
+  } 
